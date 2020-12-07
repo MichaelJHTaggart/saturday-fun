@@ -1,0 +1,103 @@
+.header{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(151, 151, 151, 0.438);
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    color: #61463e
+}
+.nav-button{
+    display: flex;
+    align-self: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.nav-button-img{
+    display: flex;
+    height: 8vh;
+    width: 12vw;
+    border: none;
+    background-color: none;
+    background-image: none;
+}
+.mobile-nav{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    bottom: 0;
+    left: 0;
+    height: 90vh;
+    width: 40vw;
+    background-color: rgba(105, 105, 105, 0.966);
+    color: white;
+    text-shadow: 2px 2px 4px #3a2c1c;
+    font-size: 30px;
+    opacity: 100;
+    transition: .5s;
+    overflow: hidden;
+}
+.mobile-nav-hide{
+    height: 0;
+    padding: 0;
+    opacity: 0;
+}
+.mobile-nav-item{
+    margin-top: 50px;
+    font-family: 'Amatic SC', cursive;
+}
+.welcome-text-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    height: 80vh;
+    width: 100%;
+    padding: 20px;
+}
+.welcome-text-header{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    color: rgb(4, 59, 10);
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 2px 2px #fdfdfd;
+}
+.welcome-text{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    color: #533c35;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #fdfdfd;
+}
+.listen-button{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 70vw;
+    color: white;
+    border-radius: 10px 10px 10px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    outline: none;
+    font-size: 30px;
+    text-shadow: 6px 6px 6px #3a2c1c;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cabin Sketch', cursive;
+    letter-spacing: 4px;
+}
